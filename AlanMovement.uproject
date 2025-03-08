@@ -1,0 +1,74 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.5",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AlanMovement",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "OculusXR",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraShakePreviewer",
+			"Enabled": false
+		},
+		{
+			"Name": "EngineCameras",
+			"Enabled": false
+		},
+		{
+			"Name": "GameplayCameras",
+			"Enabled": false
+		},
+		{
+			"Name": "AnimationSharing",
+			"Enabled": false
+		},
+		{
+			"Name": "EditorTelemetry",
+			"Enabled": false
+		},
+		{
+			"Name": "WorldMetrics",
+			"Enabled": false
+		},
+		{
+			"Name": "Gauntlet",
+			"Enabled": true
+		},
+		{
+			"Name": "FunctionalTestingEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "RuntimeTests",
+			"Enabled": true
+		},
+		{
+			"Name": "TestFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorTests",
+			"Enabled": true
+		}
+	]
+}
